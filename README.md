@@ -7,3 +7,4 @@ Properties and tweaks of annotating objects in matplotlib plots
 3. Text
 4. Arrow
 5. Patch
+6. rcParams
