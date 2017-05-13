@@ -1,6 +1,4 @@
 # mpl_cbar
-List of colorbar tweaks in matplotlib
-
 Colorbar is an object under matplotlib.colorbar. There are, in general, two ways to construct a colorbar using matplotlib
 
 Colorbar constructed directly from plot
