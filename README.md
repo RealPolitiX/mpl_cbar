@@ -18,11 +18,20 @@ Colorbar constructed using a separate axis attached to a figure
 Example:
 fig, ax = plt.subplots()
 cbar_ax = fig.add_axes([left, bottom, width, height], frameon=True)
+img = ax.plot/imshow/pcolor(mesh)/contour(f)/...()
+fig.colorbar(img, cax=cbar_ax, ...)
 ```
 In either way, the colorbar constructed inherits the properties of an Axes class, its properties can be set in the same way as an Axes object, the following is a list of common setting parameters.
 ```
 cbar.set_label("...", size=xx)
+
 cbar.ax.tick_params(labelsize=xx)
+    .ax.set_xticklabels(["a", "b", "c",...])
+    .ax_set_yticklabels(["a", "b", "c",...])
 ```
+
+Set alternative labels for colorbar
+cbar = fig.colorbar(img, ticks=old_ticklabels, orientation='vertical')
+cbar.ax.set_yticklabels(new_ticklabels)
 
 Colorbar normalization: https://matplotlib.org/users/colormapnorms.html
