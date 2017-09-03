@@ -3,8 +3,13 @@ Setting global parameters using rcParams, the general semantic is,
 from matplotlib import rcParams
 rcParams['property_name'] = property_value
 ```
+convert rcParams object to a dictionary or an ordered dictionary, use
+```
+dict(rcParams) or OrderedDict(rcParams) 
+```
 
-List of default rcParams settings in matplotlib 2.0.0:
+##### List of default rcParams settings in matplotlib 2.0.0:  
+
 _internal.classic_mode: False  
 agg.path.chunksize: 0  
 animation.avconv_args: []  

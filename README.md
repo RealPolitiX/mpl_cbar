@@ -2,9 +2,10 @@
 
 Properties and tweaks of annotating objects in matplotlib plots
 
-1. [Colorbar](https://github.com/RealPolitiX/mpl_plots/blob/master/mpl_colorbar.md)
-2. Legend
-3. Text
-4. Arrow
-5. Patch
-6. rcParams
+1. Axes
+2. [Colorbar](https://github.com/RealPolitiX/mpl_plots/blob/master/mpl_colorbar.md)
+3. Legend
+4. Text
+5. Arrow
+6. Patch
+7. [rcParams](https://github.com/RealPolitiX/mpl_plots/blob/master/mpl_rcParams.md)
